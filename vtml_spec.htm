@@ -4,109 +4,31 @@
 <meta charset="utf-8">
 <title>Especificación del formato VideoTime Media List (VML1) y VideoTime List
 Group (VLG1)</title>
-<style>
-<!--
- /* Font Definitions */
-@font-face
-	{font-family:Roboto;
-	panose-1:2 0 0 0 0 0 0 0 0 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:Roboto;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-link:"Texto de globo Car";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:36.0pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:Roboto;}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:Roboto;}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:Roboto;}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:36.0pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:Roboto;}
-span.TextodegloboCar
-	{mso-style-name:"Texto de globo Car";
-	mso-style-link:"Texto de globo";
-	font-family:"Tahoma","sans-serif";}
-.MsoChpDefault
-	{font-family:Roboto;}
-.MsoPapDefault
-	{margin-bottom:10.0pt;
-	line-height:115%;}
-@page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
--->
-</style>
 
 </head>
 
-<body lang=ES>
+<body>
 
-<div class=WordSection1>
-
-<p style='font-family:Roboto'><img width=567 height=131
+<p><img width=567 height=131
 src="vtml_spec_archivos/image001.png"></p>
 
-<p style='font-family:Roboto'><b><span style='font-size:24.0pt;line-height:115%'>Especificación
+<p><b><span style='font-size:24.0pt;line-height:115%'>Especificación
 del formato VideoTime Media List (VML1) y VideoTime List Group (VLG1)</span></b></p>
 
-<p style='font-family:Roboto'>Versión 1.0.0joegardner</p>
+<p>Versión 1.0.0joegardner</p>
 
-<p style='font-family:Roboto'><b><span style='font-size:18.0pt;line-height:115%'>¿Qué son
+<p><b><span style='font-size:18.0pt;line-height:115%'>¿Qué son
 las listas en formato VideoTime Media List (VML1)?</span></b></p>
 
-<p style='font-family:Roboto'>Las listas en formato VideoTime Media List (VML1) es un
+<p>Las listas en formato VideoTime Media List (VML1) es un
 formato de lista multimedia en línea basado en XML que permite almacenar
 contenido multimedia alojado en la red y distribuirlo a dispositivos Android a
 través del cliente VideoTime</p>
 
-<p style='font-family:Roboto'><b><span style='font-size:18.0pt;line-height:115%'>¿Qué son
+<p><b><span style='font-size:18.0pt;line-height:115%'>¿Qué son
 los grupos de listas en formato VideoTime List Group (VML1)?</span></b></p>
 
-<p style='font-family:Roboto'>Los grupos de listas en formato VideoTime List Group (VLG1)
+<p>Los grupos de listas en formato VideoTime List Group (VLG1)
 son similares a las listas en formato VideoTime Media List (VML1), pero a
 diferencia de las listas en formato VideoTime Media List (VML1), los grupos de
 listas en formato VideoTime List Group (VLG1) permiten almacenar varias listas
@@ -114,23 +36,23 @@ en formato VideoTime Media List (VML1) para acceder fácilmente a ellas,
 evitando tener que agregar cada una de las listas almacenadas al gestor de
 listas del cliente VideoTime</p>
 
-<p style='font-family:Roboto'><b><span style='font-size:18.0pt;line-height:115%'>Funcionamiento
+<p><b><span style='font-size:18.0pt;line-height:115%'>Funcionamiento
 de las listas (VML1) y grupos de listas (VLG1)</span></b></p>
 
-<p style='font-family:Roboto'><img width=665 height=132 id="0 Imagen"
+<p><img width=665 height=132 id="0 Imagen"
 src="vtml_spec_archivos/image002.png"></p>
 
-<p style='font-family:Roboto'>El cliente VideoTime al cargar la lista o grupo de listas
+<p>El cliente VideoTime al cargar la lista o grupo de listas
 desde Internet, se conecta al servidor y descarga la lista o grupo de listas al
 cliente, una vez descargada, se procede a procesar los datos de la lista o
 grupo de listas y finalmente el cliente VideoTime comenzará a mostrar los
 elementos de la lista o grupo de listas</p>
 
-<p style='font-family:Roboto'><b><span style='font-size:18.0pt;line-height:115%'>Ventajas
+<p><b><span style='font-size:18.0pt;line-height:115%'>Ventajas
 de las listas en formato VideoTime Media List (VML1) frente a las listas en
 formato M3U</span></b></p>
 
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+<p style='text-indent:-18.0pt'><span
 style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Capacidad de utilizar portadas en tamaño de caja de DVD</p>
 
@@ -143,164 +65,162 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nb
 </span></span>Capacidad de incluir una descripción para cada elemento
 multimedia</p>
 
-<p style='font-family:Roboto'><b><span style='font-size:18.0pt;line-height:115%'>Estructura
+<p><b><span style='font-size:18.0pt;line-height:115%'>Estructura
 de los archivos de lista</span></b></p>
 
-<p style='font-family:Roboto'><b><span style='font-size:12.0pt;line-height:115%'>Extension
+<p><b><span style='font-size:12.0pt;line-height:115%'>Extension
 de archivo: </span></b>.vml1</p>
 
-<p style='font-family:Roboto'><b><span style='font-size:12.0pt;line-height:115%'>Etiquetas:</span></b></p>
+<p><b><span style='font-size:12.0pt;line-height:115%'>Etiquetas:</span></b></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-list&gt; </span>Definición de la lista</p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-mediaitem&gt; </span>Definición del
 elemento multimedia, se coloca dentro de<span style='font-family:"Courier New"'>
 </span><span style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-list&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-itemname&gt; </span>Definición del nombre
 del elemento, se coloca dentro de<span style='font-family:"Courier New"'> </span><span
 style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-itemcover&gt; </span>Definición del
 caratula del elemento, se coloca dentro de<span style='font-family:"Courier New"'>
 </span><span style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-itemurl&gt; </span>Definición de la
 direccion URL multimedia del elemento, se coloca dentro de<span
 style='font-size:9.0pt;font-family:"Courier New"'> &lt;vtml-mediaitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-itemdescription&gt; </span>Definición de la
 descripción del elemento, se coloca dentro de<span style='font-size:9.0pt;
 font-family:"Courier New"'> &lt;vtml-mediaitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-itemcategory&gt; </span>Definición de la categoría
 del elemento, se coloca dentro de<span style='font-family:"Courier New"'> </span><span
 style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><b><span style='font-size:12.0pt'>Estructura
+<p style='line-height:normal'><b><span style='font-size:12.0pt'>Estructura
 de código:</span></b></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;?xml version=&quot;1.0&quot;
 encoding=&quot;UTF-8&quot;?&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-list&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>       &lt;vtml-mediaitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>             &lt;vtml-itemname&gt;[NAME]&lt;/vtml-itemname&gt;   
 </span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>             &lt;vtml-itemcover&gt;[COVER]&lt;/vtml-itemcover&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>             &lt;vtml-itemurl&gt;[URL]&lt;/vtml-itemurl&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>             &lt;vtml-itemdescription&gt;[DESCRIPTION]&lt;/vtml-itemdescription&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>             &lt;vtml-itemcategory&gt;[CATEGORY]&lt;/vtml-itemcategory&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>       &lt;/vtml-mediaitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;/vtml-list&gt;    </span></p>
 
-<p style='font-family:Roboto'><b><span style='font-size:18.0pt;line-height:115%'>Estructura
+<p><b><span style='font-size:18.0pt;line-height:115%'>Estructura
 de los archivos de grupo de listas</span></b></p>
 
-<p style='font-family:Roboto'><b><span style='font-size:12.0pt;line-height:115%'>Extension
+<p><b><span style='font-size:12.0pt;line-height:115%'>Extension
 de archivo: </span></b>.vlg1</p>
 
-<p style='font-family:Roboto' style='line-height:normal'><b><span style='font-size:12.0pt'>Etiquetas:</span></b></p>
+<p style='line-height:normal'><b><span style='font-size:12.0pt'>Etiquetas:</span></b></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-group&gt; </span>Definición del grupo de
 listas</p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-listitem&gt; </span>Definición del elemento
 de lista, se coloca dentro de<span style='font-family:"Courier New"'> </span><span
 style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-group&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-itemname&gt; </span>Definición del nombre
 del elemento, se coloca dentro de<span style='font-family:"Courier New"'> </span><span
 style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-listitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-itemcover&gt; </span>Definición del
 caratula del elemento, se coloca dentro de<span style='font-family:"Courier New"'>
 </span><span style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-listitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-itemurl&gt; </span>Definición de la
 direccion URL de lista del elemento, se coloca dentro de<span style='font-size:
 9.0pt;font-family:"Courier New"'> &lt;vtml-listitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-itemdescription&gt; </span>Definición de la
 descripción del elemento, se coloca dentro de<span style='font-size:9.0pt;
 font-family:"Courier New"'> &lt;vtml-listitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-itemcategory&gt; </span>Definición de la categoría
 del elemento, se coloca dentro de<span style='font-family:"Courier New"'> </span><span
 style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-listitem&gt;</span></p>
 
-<p style='font-family:Roboto'><b><span style='font-size:12.0pt;line-height:115%'>Estructura
+<p><b><span style='font-size:12.0pt;line-height:115%'>Estructura
 de codigo:</span></b></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;?xml version=&quot;1.0&quot;
 encoding=&quot;UTF-8&quot;?&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;vtml-group&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>       &lt;vtml-listitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>             &lt;vtml-itemname&gt;[NAME]&lt;/vtml-itemname&gt;   
 </span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>             &lt;vtml-itemcover&gt;[COVER]&lt;/vtml-itemcover&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>             &lt;vtml-itemurl&gt;[URL]&lt;/vtml-itemurl&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>             &lt;vtml-itemdescription&gt;[DESCRIPTION]&lt;/vtml-itemdescription&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>             &lt;vtml-itemcategory&gt;[CATEGORY]&lt;/vtml-itemcategory&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>       &lt;/vtml-listitem&gt;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'><span style='font-size:9.0pt;
+<p style='line-height:normal'><span style='font-size:9.0pt;
 font-family:"Courier New"'>&lt;/vtml-group&gt;</span></p>
 
-<p style='font-family:Roboto'><span style='font-size:18.0pt;line-height:115%'>&nbsp;</span></p>
+<p><span style='font-size:18.0pt;line-height:115%'>&nbsp;</span></p>
 
-<p style='font-family:Roboto' style='line-height:normal'>&nbsp;</p>
-
-</div>
+<p style='line-height:normal'>&nbsp;</p>
 
 </body>
 
