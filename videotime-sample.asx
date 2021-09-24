@@ -1,0 +1,19 @@
+<asx version="3.0">
+  <title>VideoTime ASX Sample</title>
+  <entry>
+    <title>Introducing Windows 11</title>
+    <ref href="https://videotime-player.github.io/vtml/media/Introducing%20Windows%2011.mp4" />
+  </entry>
+  <entry>
+    <title>Mickey's Fun Wheel in HD at California Adventure</title>
+    <ref href="https://videotime-player.github.io/vtml/media/Mickey's%20Fun%20Wheel%20in%20HD%20at%20California%20Adventure.mp4" />
+  </entry>
+  <entry>
+    <title>Piracy it's a crime</title>
+    <ref href="https://videotime-player.github.io/vtml/media/Piracy%20it's%20a%20crime.mp4" />
+  </entry>
+  <entry>
+    <title>Walt Disney World Resort - Magic is Here</title>
+    <ref href="https://videotime-player.github.io/vtml/media/Walt%20Disney%20World%20Resort%20%E2%80%93%20Magic%20is%20Here.mp4" />
+  </entry>
+</asx>
