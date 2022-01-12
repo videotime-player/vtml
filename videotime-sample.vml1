@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vtml-list>
+  <!--Put here your media items-->
   <vtml-mediaitem>
     <vtml-itemname>Introducing Windows 11</vtml-itemname>
     <vtml-itemcover></vtml-itemcover>
     <vtml-itemurl>https://videotime-player.github.io/vtml/media/Introducing%20Windows%2011.mp4</vtml-itemurl>
     <vtml-itemdescription>Windows 11 introduction trailer</vtml-itemdescription>
     <vtml-itemcategory>Commercials</vtml-itemcategory>
+    <!--Put here optional tags to add additional parameters to the media item-->
   </vtml-mediaitem>
   <vtml-mediaitem>
     <vtml-itemname>Mickey's Fun Wheel in HD at California Adventure</vtml-itemname>
