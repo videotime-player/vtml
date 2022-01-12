@@ -16,7 +16,7 @@
 
 <p><b><span style="font-size:24.0pt;line-height:115%">VideoTime Media List (VML1) and VideoTime List Group (VLG1) format specification</span></b></p>
 
-<p>Version 1.1.0lilo rev1</p>
+<p>Version 3.0.0mirabel</p>
 
 <p><b><span style="font-size:18.0pt;line-height:115%">What are lists in VideoTime Media List (VML1) format?</span></b></p>
 
@@ -73,10 +73,48 @@ font-family:&quot;Courier New&quot;">&lt;vtml-itemdescription&gt;</span> Definit
 font-family:&quot;Courier New&quot;">&lt;vtml-itemcategory&gt;</span> Definition of the category of the element, it is placed inside </font><span style="font-size:9.0pt;font-family:&quot;Courier New&quot;">&lt;vtml-mediaitem&gt;</font></span></font><span style="font-family:&quot;Courier New&quot;"> </span><span style="font-size:9.0pt;font-family:&quot;Courier New&quot;"></font></span></p>
 
 <p style="line-height:normal"><span style="font-size:9.0pt;
-font-family:&quot;Courier New&quot;">&lt;vtml-useragent&gt;</span> Definition of the user-agent of the element, it is placed inside </font><span style="font-size:9.0pt;font-family:&quot;Courier New&quot;">&lt;vtml-mediaitem&gt;</font></span></font><span style="font-family:&quot;Courier New&quot;"> </span><span style="font-size:9.0pt;font-family:&quot;Courier New&quot;"></font></span></p>
+font-family:&quot;Courier New&quot;">&lt;vtml-useragent&gt;</span> (Optional) Definition of the user-agent of the element, it is placed inside </font><span style="font-size:9.0pt;font-family:&quot;Courier New&quot;">&lt;vtml-mediaitem&gt;</font></span></font><span style="font-family:&quot;Courier New&quot;"> </span><span style="font-size:9.0pt;font-family:&quot;Courier New&quot;"></font></span></p>
 
 <p style="line-height:normal"><span style="font-size:9.0pt;
-font-family:&quot;Courier New&quot;">&lt;vtml-referer&gt;</span> Definition of the referer of the element, it is placed inside </font><span style="font-size:9.0pt;font-family:&quot;Courier New&quot;">&lt;vtml-mediaitem&gt;</font></span></font><span style="font-family:&quot;Courier New&quot;"> </span><span style="font-size:9.0pt;font-family:&quot;Courier New&quot;"></font></span></p>
+font-family:&quot;Courier New&quot;">&lt;vtml-referer&gt;</span> (Optional) Definition of the referer of the element, it is placed inside </font><span style="font-size:9.0pt;font-family:&quot;Courier New&quot;">&lt;vtml-mediaitem&gt;</font></span></font><span style="font-family:&quot;Courier New&quot;"> </span><span style="font-size:9.0pt;font-family:&quot;Courier New&quot;"></font></span></p>
+
+<p style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Courier New"'>&lt;vtml-uselegacystack&gt; </span>(Optional) Defines whether the element should use the Android default network stack instead of the OkHttp network stack in ExoPlayer, it is placed inside<span style='font-family:"Courier New"'> </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
+
+<p style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Courier New"'>&lt;vtml-cctrack&gt; </span>(Optional) Definition of the subtitle file (.SRT) URL of the element, it is placed inside<span style='font-family:"Courier New"'> </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
+
+<p style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Courier New"'>&lt;vtml-cclanguage&gt; </span>(Optional) Definition of the subtitle file (.SRT) language code (ISO 639-2) of the element, it is placed inside<span style='font-family:"Courier New"'> </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
+
+<p style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Courier New"'>&lt;vtml-radiologo&gt; </span>(Opcional) Definition of the radio logo image URL of the element, it is placed inside<span style='font-family:"Courier New"'> </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
+
+<p style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Courier New"'>&lt;vtml-backdrop&gt; </span>(Opcional) Definition of the backdrop image URL of the element, it is placed inside<span style='font-family:"Courier New"'> </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
+
+<p><b><span style='font-size:12.0pt;line-height:115%'>CineInfo List Extension tags:</span></b></p>
+
+<p style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Courier New"'>&lt;cineinfo-year&gt; </span>(Optional) Definition of the year of the element, it is placed inside<span style='font-family:"Courier New"'> </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
+
+<p style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Courier New"'>&lt;cineinfo-producer&gt; </span>(Optional) Definition of the producer of the element, it is placed inside<span style='font-family:"Courier New"'> </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
+
+<p style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Courier New"'>&lt;cineinfo-language&gt; </span>(Optional) Definition of the language of the element, it is placed inside<span style='font-family:"Courier New"'> </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
+
+<p style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Courier New"'>&lt;cineinfo-copyright&gt; </span>(Optional) Definition of the copyright of the element, it is placed inside<span style='font-family:"Courier New"'> </span><span
+style='font-size:9.0pt;font-family:"Courier New"'>&lt;vtml-mediaitem&gt;</span></p>
 
 <p style="line-height:normal"><b><span style="font-size:12.0pt">Code structure:</span></b></p>
 
@@ -105,6 +143,62 @@ font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 <p style="line-height:normal"><span style="font-size:9.0pt;
 font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemcategory&gt;[CATEGORY]&lt;/vtml-itemcategory&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/vtml-mediaitem&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&lt;/vtml-list&gt;&nbsp;&nbsp;&nbsp; </span></p>
+
+<p style="line-height:normal"><b><span style="font-size:12.0pt">Example:</span></b></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&lt;?xml version="1.0"
+encoding="UTF-8"?&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&lt;vtml-list&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-mediaitem&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemname&gt;Hello World&lt;/vtml-itemname&gt;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemcover&gt;http://www.example.com/media/cover.png&lt;/vtml-itemcover&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemurl&gt;http://www.example.com/media/video.mp4&lt;/vtml-itemurl&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemdescription&gt;This is a video sample&lt;/vtml-itemdescription&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemcategory&gt;Samples&lt;/vtml-itemcategory&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/vtml-mediaitem&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-mediaitem&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemname&gt;Hello World 2&lt;/vtml-itemname&gt;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemcover&gt;http://www.example.com/media/cover.png&lt;/vtml-itemcover&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemurl&gt;http://www.example.com/media/video2.mp4&lt;/vtml-itemurl&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemdescription&gt;This is another video sample&lt;/vtml-itemdescription&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemcategory&gt;Samples&lt;/vtml-itemcategory&gt;</span></p>
 
 <p style="line-height:normal"><span style="font-size:9.0pt;
 font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/vtml-mediaitem&gt;</span></p>
@@ -175,6 +269,62 @@ font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/v
 
 <p style="line-height:normal"><span style="font-size:9.0pt;
 font-family:&quot;Courier New&quot;">&lt;/vtml-group&gt;</span></p>
+
+<p style="line-height:normal"><b><span style="font-size:12.0pt">Example:</span></b></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&lt;?xml version="1.0"
+encoding="UTF-8"?&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&lt;vtml-group&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-listitem&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemname&gt;Hello World&lt;/vtml-itemname&gt;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemcover&gt;http://www.example.com/media/cover.png&lt;/vtml-itemcover&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemurl&gt;http://www.example.com/media/list.vml1&lt;/vtml-itemurl&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemdescription&gt;This is a list sample&lt;/vtml-itemdescription&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemcategory&gt;Samples&lt;/vtml-itemcategory&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/vtml-listitem&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-listitem&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemname&gt;Hello World 2&lt;/vtml-itemname&gt;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemcover&gt;http://www.example.com/media/cover.png&lt;/vtml-itemcover&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemurl&gt;http://www.example.com/media/list2.vml1&lt;/vtml-itemurl&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemdescription&gt;This is another list sample&lt;/vtml-itemdescription&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;vtml-itemcategory&gt;Samples&lt;/vtml-itemcategory&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/vtml-listitem&gt;</span></p>
+
+<p style="line-height:normal"><span style="font-size:9.0pt;
+font-family:&quot;Courier New&quot;">&lt;/vtml-group&gt;&nbsp;&nbsp;&nbsp; </span></p>
 
 <p><span style="font-size:18.0pt;line-height:115%">&nbsp;</span></p>
 
